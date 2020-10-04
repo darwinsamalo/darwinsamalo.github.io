@@ -1843,7 +1843,7 @@ input, select, textarea {
 
 		#header h1 {
 			position: absolute;
-			left: 1em;
+			left: 85px;
 			top: 0;
 			height: 3em;
 			line-height: 3em;
@@ -1853,6 +1853,20 @@ input, select, textarea {
 			#header h1 a {
 				font-size: 1.25em;
 			}
+
+		#header img {
+			width: 50px;
+			position: absolute;
+			top: 10px;
+			left: 20px;
+		}
+		@media screen and (max-width: 736px) {
+			#header img {
+				width: 22px;
+				top: 11px;
+				left: 15px;
+			}
+		}
 
 		#header nav {
 			position: absolute;
@@ -2257,6 +2271,11 @@ input, select, textarea {
 	}
 	#intro .content h1{
 		font-size: 60px;
+	}
+	#intro .content img {
+		width: 190px;
+		border-radius: 50%;
+		margin-bottom: 75px;
 	}
 	
 /* One */
