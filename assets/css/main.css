@@ -1448,6 +1448,14 @@ input, select, textarea {
 			position: relative;
 			opacity: 1.0;
 		}
+		.gallery article {
+			transition: all 2s;
+		}
+
+		.gallery article:hover {
+			cursor: pointer;
+			opacity: 70%;
+		}
 
 			.gallery article .image {
 				margin: 0;
@@ -1823,6 +1831,9 @@ input, select, textarea {
 
 				.gallery article {
 					width: 100%;
+				}
+				.gallery .from-right {
+					margin-top: 20px;
 				}
 
 		}
